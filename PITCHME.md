@@ -121,6 +121,7 @@ const sum = (a, b) => {
 ```
 ---
 #### 5. Generator functions
+
 ##### You can ignore me 🤓
 - Generator functions are like normal functions but they don’t use return, they `yield`, although they return a Generator object.
 - A generator function starts with `function*` and uses yield instead of return

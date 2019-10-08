@@ -1,4 +1,4 @@
-layout : center
+layout : top-left
 theme            : template
 
 theme-background : [ "#FFF" ]
