@@ -3,8 +3,10 @@ ____
 
 What you really need to know! 
 
+
+
 ---
-## What is a function?
+#### What is a function?
 
 A function is a body of code that: 
 - Might receive some data called parameters,
@@ -18,13 +20,13 @@ function name(parameter1, parameter2, parameter3) {
 
 ```
 ---
-## How do you call a function?
+#### How do you call a function?
 
 - Functions are used by just calling their names. 
 - Functions can be called as many times as needed...or as you want
 
 ---
-## Need an example? 🤓
+#### Need an example? 🤓
 
 Here you go:
 
@@ -44,7 +46,7 @@ while(true) {
 ```
 ---
 
-## Ways to declare functions in JavaScript!
+#### Ways to declare functions in JavaScript!
 
 - Majorly, we have two ways to describe functions in JS.
 
@@ -57,7 +59,7 @@ while(true) {
     5. Generator functions
 
 ---
-## 1. Function declaration
+#### 1. Function declaration
 
 ```
 function greet(name){
@@ -69,7 +71,7 @@ function sum(a, b) {
 }
 ```
 ---
-## 2. Function expression
+#### 2. Function expression
 
 - A function expression is that which is assigned to a variable.
 - You can add an optional name after the “function”. But it won't be having any effect.
@@ -85,7 +87,7 @@ const sum = function plus(a, b) {
 ```
 
 ---
-## 3. Shorthand method definition
+#### 3. Shorthand method definition
 
 - This is used in object literals and ECMAScript 6 to define functions.
 - They do not use the `function` keyword.
@@ -105,7 +107,7 @@ sun.getMessage(' is shining')
 // => 'Sun is shining'
 ```
 ---
-## 4. Arrow functions
+#### 4. Arrow functions
 - Arrow functions are defined by parenthesis `()` containing the parameters, followed by the arrow `=>` and then the body of the function enclosed by `{` and `}`.
 
 ```
@@ -118,8 +120,8 @@ const sum = (a, b) => {
 }
 ```
 ---
-## 5. Generator functions
-#### You can ignore me 🤓
+#### 5. Generator functions
+##### You can ignore me 🤓
 - Generator functions are like normal functions but they don’t use return, they `yield`, although they return a Generator object.
 - A generator function starts with `function*` and uses yield instead of return
 
@@ -136,7 +138,7 @@ console.log(g.next().value); // => 0
 console.log(g.next().value); // => 1
 ```
 ---
-## Callback functions
+#### Callback functions
 - A callback function is a function passed as a parameter to another function call. In the called function, the callback function is called; most times after it is done with its process.
 - This aids the asynchronous feature of Js
 
@@ -162,6 +164,8 @@ add(5,6,disp);
 **NOTE**: Keep callbacks to a minimal in order to avoid callback hell.😵
 
 ---
-## Callback HELL
+#### Callback HELL
 
 A callback hell is basically when you have lot of cascaded callbacks that it starts to not make sense and drive you nuts!
+
+---
